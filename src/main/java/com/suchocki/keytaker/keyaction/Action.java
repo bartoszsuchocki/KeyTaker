@@ -1,4 +1,4 @@
-package com.suchocki.keyloggerdemo.keyaction;
+package com.suchocki.keytaker.keyaction;
 
 @FunctionalInterface
 public interface Action {

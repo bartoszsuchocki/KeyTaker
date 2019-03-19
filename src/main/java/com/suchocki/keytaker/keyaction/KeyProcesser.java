@@ -1,9 +1,9 @@
-package com.suchocki.keyloggerdemo.keyaction;
+package com.suchocki.keytaker.keyaction;
 
 import org.jnativehook.keyboard.NativeKeyEvent;
 
-import com.suchocki.keyloggerdemo.buffer.KeyBufferArrayListImpl;
-import com.suchocki.keyloggerdemo.buffer.KeyBuffer;
+import com.suchocki.keytaker.buffer.KeyBuffer;
+import com.suchocki.keytaker.buffer.KeyBufferArrayListImpl;
 
 public class KeyProcesser {
 

@@ -1,4 +1,4 @@
-package com.suchocki.keyloggerdemo.keyaction;
+package com.suchocki.keytaker.keyaction;
 
 import java.util.HashMap;
 import java.util.Map;

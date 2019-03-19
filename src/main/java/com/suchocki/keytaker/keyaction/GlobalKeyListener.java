@@ -1,4 +1,4 @@
-package com.suchocki.keyloggerdemo.keyaction;
+package com.suchocki.keytaker.keyaction;
 
 import org.jnativehook.keyboard.NativeKeyEvent;
 import org.jnativehook.keyboard.NativeKeyListener;

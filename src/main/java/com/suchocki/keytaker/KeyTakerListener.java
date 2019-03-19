@@ -1,4 +1,4 @@
-package com.suchocki.keyloggerdemo;
+package com.suchocki.keytaker;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -6,10 +6,10 @@ import java.util.logging.Logger;
 import org.jnativehook.GlobalScreen;
 import org.jnativehook.NativeHookException;
 
-import com.suchocki.keyloggerdemo.buffer.KeyBuffer;
-import com.suchocki.keyloggerdemo.keyaction.ActionPerformer;
-import com.suchocki.keyloggerdemo.keyaction.GlobalKeyListener;
-import com.suchocki.keyloggerdemo.keyaction.KeyProcesser;
+import com.suchocki.keytaker.buffer.KeyBuffer;
+import com.suchocki.keytaker.keyaction.ActionPerformer;
+import com.suchocki.keytaker.keyaction.GlobalKeyListener;
+import com.suchocki.keytaker.keyaction.KeyProcesser;
 
 public class KeyTakerListener {
 

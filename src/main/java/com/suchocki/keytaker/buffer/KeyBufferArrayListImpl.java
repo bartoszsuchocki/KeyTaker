@@ -1,4 +1,4 @@
-package com.suchocki.keyloggerdemo.buffer;
+package com.suchocki.keytaker.buffer;
 
 import java.util.ArrayList;
 import java.util.List;
