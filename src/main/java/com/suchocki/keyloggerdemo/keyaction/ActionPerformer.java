@@ -11,8 +11,11 @@ public class ActionPerformer {
 	}
 
 	public void addAction(String word, Action action) {
-		wordActions.put(word.toUpperCase(), action);
+		word = word.toUpperCase();
+		word = word.replaceAll("SPACE", "Space");
+		wordActions.put(word, action);
 	}
+	
 
 	public void performAction(String word) {
 		System.out.println("Performing action for: " + word);

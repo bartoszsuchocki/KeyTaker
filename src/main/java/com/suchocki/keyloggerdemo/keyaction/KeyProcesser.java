@@ -36,6 +36,10 @@ public class KeyProcesser {
 		}
 	}
 
+	public void setKeyBuffer(KeyBuffer buffer) {
+		this.keyBuffer = buffer;
+	}
+
 	private void passWordsToActionPerformer() {
 		for (int i = 0; i < keyBuffer.getElementsNumber(); i++) {
 			actionPerformer.performAction(keyBuffer.getPartOfBuffer(i, keyBuffer.getElementsNumber()));
